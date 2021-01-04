@@ -1,0 +1,62 @@
+/* IE specific styles */
+
+ul#topnavlist {
+	zoom:100%;
+	margin:0px;
+	padding-top:.2em;
+    padding-bottom:.1em;
+        overflow-y:hidden;
+}
+
+ul#topnavlist li {
+	zoom:100%;
+	margin:0px;
+	display:inline;
+	padding-bottom:.1em;
+}
+
+label {
+	zoom:100%;
+	margin:0px;
+}
+
+table.data tfoot input {
+	min-width:0px;
+}
+.outside_box{
+	height:9.6em;
+}
+.buttons input[type=submit]{
+	padding:.3em;
+	width:auto;
+	overflow:visible;
+}
+.prefs_buttontab{
+	*margin-top:1em;	
+}
+ul.current_list{
+	  *margin-left:0;
+}
+
+table.etabbed-table	{
+	*table-layout:fixed;
+	*margin-left:50px;
+}
+.tab-spacer{
+	*width:10px;
+}
+.fl-force-right{
+	*margin-top:-1.2em;
+}
+
+ul#subnavlist li {
+	*display: inline;
+	*margin-left:.5em;
+}
+textarea#body_text{
+	*width:600px;
+}
+.scroll-to-fixed-fixed div#topnavlistcontainer > ul{
+    white-space:nowrap;
+    overflow-y:hidden;
+} 

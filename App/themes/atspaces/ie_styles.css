@@ -1,0 +1,84 @@
+/* IE specific styles */
+
+#top-links{
+margin-top:0em;
+white-space:nowrap;
+width:50%;
+
+}
+#top-links-jump{
+margin-top:0em;
+
+}
+#top-links-text{
+
+margin-top:0em;
+
+}
+ul#topnavlist{
+	overflow-y:hidden;
+	overflow-x:hidden;
+}
+ul#subnavlist li {
+	*display: inline;
+	*padding:.6em;
+}
+ul#topnavlist li {
+	*display: inline;
+	*padding:0em .8em .8em .8em;
+}
+
+#topnavlist-container{
+	*padding:0;
+}
+ul#topnavlist li a{
+	padding: .7em .6em 1em .6em;
+}
+ul#topnavlist li a:hover, ul#topnavlist li a:focus, ul#topnavlist li span.active {
+	padding: .7em .6em 1em .6em;
+	border-bottom: none;
+}
+ul#subnavlist li a{
+	padding: .6em .8em 1em .8em;
+}
+ul#subnavlist li a:hover, ul#subnavlist li a:focus{
+	padding: .6em .8em 1em .8em;
+	*padding: .9em .8em 1em .8em;
+}
+ul#subnavlist span.active{
+	padding: .5em .8em 1.3em .8em;
+
+}
+div#guide_box{
+	*width:12%;
+
+}
+#contentcolumn {
+	overflow:auto;
+}
+.fl-force-right{
+	*margin-top:-1.3em;
+	*margin-right:.2em;
+}
+.browse-result{
+    padding-left:2em;
+    padding-right:2em;
+}
+h1#section-title {
+	margin-top:-.5em;
+	margin-bottom:2em;
+	
+}
+
+.logo img{
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+div.search_bar .s_img{
+	margin-top: -1.4em\9; /* the \9 to accomodate IE 7&8 */
+}
+.fl-reorderer-avatar {
+	filter:alpha(opacity=60);
+}
+.scroll-to-fixed-fixed #subnavlistcontainer{
+    filter: alpha(opacity=80);
+}
