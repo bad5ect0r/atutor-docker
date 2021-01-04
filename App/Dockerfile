@@ -6,5 +6,6 @@ RUN docker-php-ext-install gd mysql
 COPY ./atutor.conf /etc/apache2/sites-available/atutor.conf
 RUN ln -s /etc/apache2/sites-available/atutor.conf /etc/apache2/sites-enabled/atutor.conf
 COPY . /var/www/html/atutor
+RUN mkdir /var/www/html/atutor/content
 RUN mv /var/www/html/atutor/php.ini "$PHP_INI_DIR/php.ini"
 RUN chown -R www-data: /var/www/html/atutor
