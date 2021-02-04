@@ -21,3 +21,5 @@ The App/atutor.conf file is an Apache config for a virtual host. You can make ap
 ```
 
 Then you can browse to `http://atutor:8080`.
+
+In the installation, the database hostname should set to `db`.
